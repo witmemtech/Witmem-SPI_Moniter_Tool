@@ -1,0 +1,18 @@
+QWidget{
+font-size:12px;
+background:rgb(53,53,53);
+color:#ffffff;
+}
+QTabWidget::pane{
+background:rgb(53,53,53);
+}
+QTabBar::tab{
+background:rgb(53,53,53);
+color:#ffffff;
+}
+
+QPushButton{
+background:rgb(53,53,53);
+color:#ffffff;
+border-radius: 6px;
+}

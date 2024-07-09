@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ResFile/logo.png</file>
+        <file>ResFile/CustomStyle.qss</file>
+        <file>ResFile/File.png</file>
+    </qresource>
+</RCC>

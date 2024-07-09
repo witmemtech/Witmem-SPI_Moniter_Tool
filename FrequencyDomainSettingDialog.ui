@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FrequencyDomainSettingDialog</class>
+ <widget class="QDialog" name="FrequencyDomainSettingDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>173</width>
+    <height>158</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="1" column="0">
+      <widget class="QLabel" name="FrequencyNumLabel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>频点数量</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="DataTypeLabel">
+       <property name="text">
+        <string>数据类型</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="DataTypeBox">
+       <property name="currentText">
+        <string>float</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>float</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>uint32</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>int32</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>uint16</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>int16</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>uint8</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>int8</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="FrequencyNumBox">
+       <property name="currentText">
+        <string>64</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>64</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>128</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>192</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>256</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>320</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>384</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>448</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>512</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>576</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>640</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="TransmissionOrderBox">
+       <item>
+        <property name="text">
+         <string>1组样本</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2组样本-分段</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2组样本-交替</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="TransmissionOrderLabel">
+       <property name="text">
+        <string>传输顺序</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="SamplingRateLabel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>采样率  </string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="SamplingRateBox">
+       <property name="currentText">
+        <string>8000Hz</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>8000Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11025Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>12000Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>16000Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>22050Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>24000Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>32000Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>44100Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>48000Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>64000Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>88200Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>96000Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>176400Hz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>192000Hz</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="FreConfirmBtn">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>确定</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
