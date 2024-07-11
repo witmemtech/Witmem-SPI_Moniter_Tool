@@ -20,30 +20,21 @@ SPI_Moniter是知存科技开发的一款辅研工具，通过SPI总线接收数
 
 
 安装
-
 # 使用Git克隆项目
-
-git clone https://github.com/witmem/SPI_Monitor_Tool.git
+git clone https://github.com/yourusername/spi_monitor.git
 
 # 进入项目目录
-
 cd spi_monitor
 
 # 安装依赖项
-
 # 根据你的项目依赖进行相应的命令替换
-
 npm install
 
 
 使用
-
 # 运行SPI_Moniter
-
 # 使用具体的启动命令，根据项目实际情况进行替换
-
 node index.js
-
 
 贡献
 
